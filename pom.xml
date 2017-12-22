@@ -7,15 +7,15 @@
         <version>1.4.3.RELEASE</version>
     </parent>
 
-    <groupId>com.jiwhiz</groupId>
+    <groupId>com.zhanyang</groupId>
     <artifactId>spring-boot-docker-mysql</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Spring Boot Docker MySQL Sample</name>
+    <name>Spring Boot Docker MySQL Demo</name>
     <organization>
-		<name>Jiwhiz Consulting Inc.</name>
-		<url>https://www.jiwhiz.com</url>
+		<name>Demo Inc.</name>
+		<url>https://www.demo.com</url>
 	</organization>
     <licenses>
 		<license>
@@ -27,8 +27,8 @@
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>com.jiwhiz.demo.DemoApplication</start-class>
-        <docker.image.prefix>jiwhiz</docker.image.prefix>
+        <start-class>com.zhanyang.demo.DemoApplication</start-class>
+        <docker.image.prefix>zhanyang</docker.image.prefix>
     </properties>
 
 	<dependencies>
